@@ -4,6 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECSNHW848F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ECSNHW848F');
+    </script>
+
     <link rel="icon" href="weviis.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -107,20 +121,20 @@
         <img src="playlist-chill.png" alt="WEVIIS" class="img-fluid rounded-square">
         <h1>Just Sleep 2024 💤</h1>
         <div class="links">
-            <a href="https://open.spotify.com/playlist/44aDL77f2MyGaTM2sMaDOL" class="btn btn-success btn-block">Spotify</a>
-            <a href="https://www.deezer.com/us/playlist/12837744661" class="btn btn-secondary btn-block">Deezer</a>
-            <a href="https://music.amazon.com/user-playlists/712df13a8d3840f0bce4fcb31d295e84b1r0?ref=dm_sh_Rr2WitHmfnQxLVxkXsSkKITzV" class="btn btn-primary btn-block">Amazon Music</a>
-            <a href="https://open.spotify.com/intl-pt/track/3U5BZGLnPjxmq4xHt474WZ?si=82cfbe1a81d34787" class="btn btn-secondary btn-block">Last Release</a>
-            <a href="https://open.spotify.com/intl-pt/track/3U5BZGLnPjxmq4xHt474WZ?si=82cfbe1a81d34787" class="btn btn-secondary btn-block">SoundCloud</a>
+            <a id="spotify-button" href="https://open.spotify.com/playlist/44aDL77f2MyGaTM2sMaDOL" class="btn btn-success btn-block">Spotify</a>
+            <a id="deezer-button" href="https://www.deezer.com/us/playlist/12837744661" class="btn btn-secondary btn-block">Deezer</a>
+            <a id="amazon-music-button" href="https://music.amazon.com/user-playlists/712df13a8d3840f0bce4fcb31d295e84b1r0?ref=dm_sh_Rr2WitHmfnQxLVxkXsSkKITzV" class="btn btn-primary btn-block">Amazon Music</a>
+            <a id="last-release-button" href="https://open.spotify.com/intl-pt/track/3U5BZGLnPjxmq4xHt474WZ?si=82cfbe1a81d34787" class="btn btn-secondary btn-block">Last Release</a>
         </div>
         <div class="display-flex logo-container">
-            <a href="https://www.tiktok.com/@weviismusic?lang=pt-BR" class="logo"><img alt="TikTok" src="tiktok_weviis.png"></a>
-            <a href="https://www.instagram.com/weviismusic/" class="logo"><img alt="Instagram" src="instagram_weviis.png"></a>
-            <a href="https://soundcloud.com/weviis" class="logo"><img alt="SoundCloud" src="soundcloud-weviis.png"></a>
-            <a href="https://youtu.be/2urZbZmGoBs?si=InQHc4oiNMCSq-lw" class="logo"><img alt="Youtube" src="youtube_weviis.png"></a>
+            <a id="tiktok-icon-button" href="https://www.tiktok.com/@weviismusic?lang=pt-BR" class="logo"><img alt="TikTok" src="tiktok_weviis.png"></a>
+            <a id="ig-icon-button" href="https://www.instagram.com/weviismusic/" class="logo"><img alt="Instagram" src="instagram_weviis.png"></a>
+            <a id="soundcloud-icon-button" href="https://soundcloud.com/weviis" class="logo"><img alt="SoundCloud" src="soundcloud-weviis.png"></a>
+            <a id="youtube-icon-button" href="https://youtu.be/2urZbZmGoBs?si=InQHc4oiNMCSq-lw" class="logo"><img alt="Youtube" src="youtube_weviis.png"></a>
         </div>
         <h2>@weviismusic</h2>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="track.js"></script>
