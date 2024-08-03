@@ -1,0 +1,86 @@
+body {
+    font-family: Raleway, Arial, sans-serif;
+    background-color: #020202;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-geral {
+    background-image: url('../assets/weviis-fundo-playlist-5.png');
+    background-size: contain;
+    background-position: center;
+    filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #141414b2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.container img {
+    width: 170px;
+    border-radius: 7%;
+    color: #fff;
+}
+
+.container h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.container h2 {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #f4f4f4;
+}
+
+button {
+    outline-width: 1px;
+}
+
+.logo img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    filter: grayscale(50%);
+}
+
+.logo-container {
+    margin-top: 24px;
+}
+
+.links {
+    margin-top: 32px;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #02020200;
+    outline: #07b82d;
+    stroke: #07b82d;
+    transition: background-color 0.6s;
+}
